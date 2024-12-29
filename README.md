@@ -1,7 +1,19 @@
 # programming-languages
 This is list of programming languages I have made for learning. In each project there were many key takeaways that can be learned from. I will continue to add information and lessons learned from each project. I will also add a description of each project and what it accomplished.
 
-# jai [[source](https://github.com/JakeRoggenbuck/jai)] <- Latest
+# Component [[source](https://github.com/JakeRoggenbuck/component)] <- Latest
+A programming language that compiles to x86-64 assembly for math using postfix notation
+- https://github.com/JakeRoggenbuck/component
+
+# Unit Language [[source](https://github.com/JakeRoggenbuck/unit-language)]
+A small programming language with postfix notation using TypeScript and Deno.
+- https://github.com/JakeRoggenbuck/unit-language
+
+# Basis [[source](https://github.com/JakeRoggenbuck/basis)]
+A math console language with a bunch of useful functions and constants
+- https://github.com/JakeRoggenbuck/basis
+
+# jai [[source](https://github.com/JakeRoggenbuck/jai)]
 Jai is a programming language
 - https://github.com/JakeRoggenbuck/jai
 
