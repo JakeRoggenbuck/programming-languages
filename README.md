@@ -5,9 +5,14 @@ This is list of programming languages I have made for learning. In each project 
 A programming language that compiles to x86-64 assembly for math using postfix notation
 - https://github.com/JakeRoggenbuck/component
 
+![image](https://github.com/user-attachments/assets/910ea2ba-027d-4e22-a9d1-c002510fd09e)
+![image](https://github.com/user-attachments/assets/63deb590-4a6b-4ec4-a66f-e9204420443a)
+
 # Unit Language [[source](https://github.com/JakeRoggenbuck/unit-language)]
 A small programming language with postfix notation using TypeScript and Deno.
 - https://github.com/JakeRoggenbuck/unit-language
+
+![image](https://github.com/user-attachments/assets/bdb35097-a177-40f8-aaf0-1dbb827eab7e)
 
 # Basis [[source](https://github.com/JakeRoggenbuck/basis)]
 A math console language with a bunch of useful functions and constants
