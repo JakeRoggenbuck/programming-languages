@@ -14,9 +14,13 @@ A small programming language with postfix notation using TypeScript and Deno.
 
 ![image](https://github.com/user-attachments/assets/bdb35097-a177-40f8-aaf0-1dbb827eab7e)
 
+![image](https://github.com/user-attachments/assets/dfc55adc-6edc-4fb6-b061-7bf36597abaa)
+
 # Basis (2023) [[source](https://github.com/JakeRoggenbuck/basis)]
 A math console language with a bunch of useful functions and constants
 - https://github.com/JakeRoggenbuck/basis
+
+![image](https://github.com/user-attachments/assets/29813bd6-ef26-4d13-abf5-f9d7d206aded)
 
 # jai (2021) [[source](https://github.com/JakeRoggenbuck/jai)]
 Jai is a programming language
