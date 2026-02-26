@@ -1,7 +1,59 @@
 # programming-languages
 This is list of programming languages I have made for learning. In each project there were many key takeaways that can be learned from. I will continue to add information and lessons learned from each project. I will also add a description of each project and what it accomplished.
 
-# Component (2024) [[source](https://github.com/JakeRoggenbuck/component)] <- Latest
+# seedlang-c (2026) [[source](https://github.com/JakeRoggenbuck/seedlang-c)]
+The smallest self hosted language.
+
+```c
+int main() {
+
+    char buffer[256];
+    const char *self =
+        "#include <stdio.h>\n#include <string.h>\n\nint main() {\n\n    char "
+        "buffer[256];\n    const char *self = \"?\";\n\n    for (;;) {\n\n     "
+        "   char *s = fgets(buffer, sizeof(buffer), stdin);\n\n        if (s "
+        "== NULL) {\n            return 0;\n        }\n\n        while (*s) "
+        "{\n            if (*s == 'x') {\n                int n = "
+        "strlen(self);\n                for (int i = 0; i < n; i++) {\n        "
+        "            if (self[i] == 63) {\n                        for (int j "
+        "= 0; j < n; j++) {\n                            switch (self[j]) {\n  "
+        "                          case '\\n':\n                               "
+        " printf(\"\\\\n\");\n                                break;\n         "
+        "                   case '\"':\n                                "
+        "printf(\"\\\\\\\"\");\n                                break;\n       "
+        "                     case '\\\\':\n                                "
+        "printf(\"\\\\\\\\\");\n                                break;\n       "
+        "                     default:\n                                "
+        "printf(\"%c\", self[j]);\n                            }\n             "
+        "           }\n                    } else {\n                        "
+        "printf(\"%c\", self[i]);\n                    }\n                }\n  "
+        "                          }\n            s++;\n        }\n    }\n\n   "
+        " return 0;\n}\n";
+
+        // ...
+}
+```
+
+# Fyorth (2025) [[source](https://github.com/JakeRoggenbuck/fyorth)]
+Fyorth is a programming language similar to Forth, written in Elixir.
+
+```elixir
+@doc """
+## Examples
+
+    iex> Fyorth.compile_program(": 1 2 +\\n: 2 3 +")
+    ["mov rax, 1\\nadd rax, 2\\n", "mov rax, 2\\nadd rax, 3\\n"]
+
+"""
+def compile_program(content) do
+  content
+  |> Fyorth.lines()
+  |> Enum.map(&Fyorth.tokenize_line/1)
+  |> Enum.map(&Fyorth.compile_line_token_array/1)
+end
+```
+
+# Component (2024) [[source](https://github.com/JakeRoggenbuck/component)] <- Favorite :star:
 A programming language that compiles to x86-64 assembly for math using postfix notation
 - https://github.com/JakeRoggenbuck/component
 
